@@ -8,8 +8,7 @@ export default function Home() {
   return (
     <>
     <div className="flex flex-col items-center space-y-4">
-        <Card title="Sample Listing" description="This is a description of the sample listing." imageUrl="/assets/property.png" />
-        <Button />
+        <Card title="Villa Arrecife Beach House" description="Sidemen, Bali, Indonesia" imageUrl="/assets/property.png" rating={4.76} />
       </div>
     </>
   );
